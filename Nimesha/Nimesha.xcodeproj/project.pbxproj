@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045974CF37CBB5BCBD4A88D3 /* Pods_NimeshaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BBC0C8CD0845E4EB4E0BFA /* Pods_NimeshaTests.framework */; };
+		093400DB275CBA330006DD03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400DA275CBA330006DD03 /* AppDelegate.swift */; };
+		093400DD275CBA340006DD03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400DC275CBA340006DD03 /* SceneDelegate.swift */; };
+		093400DF275CBA340006DD03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400DE275CBA340006DD03 /* ContentView.swift */; };
+		093400E1275CBA430006DD03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093400E0275CBA430006DD03 /* Assets.xcassets */; };
+		093400E4275CBA430006DD03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093400E3275CBA430006DD03 /* Preview Assets.xcassets */; };
+		093400E7275CBA440006DD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093400E5275CBA440006DD03 /* LaunchScreen.storyboard */; };
+		093400F2275CBA440006DD03 /* NimeshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400F1275CBA440006DD03 /* NimeshaTests.swift */; };
+		093400FD275CBA450006DD03 /* NimeshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400FC275CBA450006DD03 /* NimeshaUITests.swift */; };
+		0934012A275CC0D00006DD03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09340129275CC0D00006DD03 /* GoogleService-Info.plist */; };
+		1D43D46CB66FACD14D03332D /* Pods_Nimesha_NimeshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */; };
+		58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B88D1C516B78472961487 /* Pods_Nimesha.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093400EE275CBA440006DD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093400CF275CBA330006DD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093400D6275CBA330006DD03;
+			remoteInfo = Nimesha;
+		};
+		093400F9275CBA450006DD03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093400CF275CBA330006DD03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093400D6275CBA330006DD03;
+			remoteInfo = Nimesha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093400D7275CBA330006DD03 /* Nimesha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nimesha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093400DA275CBA330006DD03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		093400DC275CBA340006DD03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		093400DE275CBA340006DD03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		093400E0275CBA430006DD03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093400E3275CBA430006DD03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		093400E6275CBA440006DD03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093400E8275CBA440006DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093400ED275CBA440006DD03 /* NimeshaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimeshaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093400F1275CBA440006DD03 /* NimeshaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimeshaTests.swift; sourceTree = "<group>"; };
+		093400F3275CBA440006DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093400F8275CBA450006DD03 /* NimeshaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimeshaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093400FC275CBA450006DD03 /* NimeshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimeshaUITests.swift; sourceTree = "<group>"; };
+		093400FE275CBA450006DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09340129275CC0D00006DD03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha.debug.xcconfig"; path = "Target Support Files/Pods-Nimesha/Pods-Nimesha.debug.xcconfig"; sourceTree = "<group>"; };
+		1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimesha_NimeshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343BED75DBC5293F145C3B48 /* Pods-NimeshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimeshaTests.release.xcconfig"; path = "Target Support Files/Pods-NimeshaTests/Pods-NimeshaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DCDBDA31C85A93F4504D799 /* Pods-Nimesha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha.release.xcconfig"; path = "Target Support Files/Pods-Nimesha/Pods-Nimesha.release.xcconfig"; sourceTree = "<group>"; };
+		6713043CE5EE82C64928FD21 /* Pods-Nimesha-NimeshaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha-NimeshaUITests.release.xcconfig"; path = "Target Support Files/Pods-Nimesha-NimeshaUITests/Pods-Nimesha-NimeshaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7188ED391E427204BDCD52CA /* Pods-NimeshaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimeshaTests.debug.xcconfig"; path = "Target Support Files/Pods-NimeshaTests/Pods-NimeshaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94BBC0C8CD0845E4EB4E0BFA /* Pods_NimeshaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimeshaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41AC16630877DD2495F0E92 /* Pods-Nimesha-NimeshaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha-NimeshaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nimesha-NimeshaUITests/Pods-Nimesha-NimeshaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C60B88D1C516B78472961487 /* Pods_Nimesha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimesha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093400D4275CBA330006DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400EA275CBA440006DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045974CF37CBB5BCBD4A88D3 /* Pods_NimeshaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400F5275CBA450006DD03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D43D46CB66FACD14D03332D /* Pods_Nimesha_NimeshaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093400CE275CBA330006DD03 = {
+			isa = PBXGroup;
+			children = (
+				093400D9275CBA330006DD03 /* Nimesha */,
+				093400F0275CBA440006DD03 /* NimeshaTests */,
+				093400FB275CBA450006DD03 /* NimeshaUITests */,
+				093400D8275CBA330006DD03 /* Products */,
+				F5937F8210A78DD0D2896075 /* Pods */,
+				CCB1FC0620919FCDA54EB1EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		093400D8275CBA330006DD03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093400D7275CBA330006DD03 /* Nimesha.app */,
+				093400ED275CBA440006DD03 /* NimeshaTests.xctest */,
+				093400F8275CBA450006DD03 /* NimeshaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093400D9275CBA330006DD03 /* Nimesha */ = {
+			isa = PBXGroup;
+			children = (
+				09340129275CC0D00006DD03 /* GoogleService-Info.plist */,
+				093400DA275CBA330006DD03 /* AppDelegate.swift */,
+				093400DC275CBA340006DD03 /* SceneDelegate.swift */,
+				093400DE275CBA340006DD03 /* ContentView.swift */,
+				093400E0275CBA430006DD03 /* Assets.xcassets */,
+				093400E5275CBA440006DD03 /* LaunchScreen.storyboard */,
+				093400E8275CBA440006DD03 /* Info.plist */,
+				093400E2275CBA430006DD03 /* Preview Content */,
+			);
+			path = Nimesha;
+			sourceTree = "<group>";
+		};
+		093400E2275CBA430006DD03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				093400E3275CBA430006DD03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		093400F0275CBA440006DD03 /* NimeshaTests */ = {
+			isa = PBXGroup;
+			children = (
+				093400F1275CBA440006DD03 /* NimeshaTests.swift */,
+				093400F3275CBA440006DD03 /* Info.plist */,
+			);
+			path = NimeshaTests;
+			sourceTree = "<group>";
+		};
+		093400FB275CBA450006DD03 /* NimeshaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093400FC275CBA450006DD03 /* NimeshaUITests.swift */,
+				093400FE275CBA450006DD03 /* Info.plist */,
+			);
+			path = NimeshaUITests;
+			sourceTree = "<group>";
+		};
+		CCB1FC0620919FCDA54EB1EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60B88D1C516B78472961487 /* Pods_Nimesha.framework */,
+				1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */,
+				94BBC0C8CD0845E4EB4E0BFA /* Pods_NimeshaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5937F8210A78DD0D2896075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */,
+				3DCDBDA31C85A93F4504D799 /* Pods-Nimesha.release.xcconfig */,
+				B41AC16630877DD2495F0E92 /* Pods-Nimesha-NimeshaUITests.debug.xcconfig */,
+				6713043CE5EE82C64928FD21 /* Pods-Nimesha-NimeshaUITests.release.xcconfig */,
+				7188ED391E427204BDCD52CA /* Pods-NimeshaTests.debug.xcconfig */,
+				343BED75DBC5293F145C3B48 /* Pods-NimeshaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093400D6275CBA330006DD03 /* Nimesha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09340101275CBA450006DD03 /* Build configuration list for PBXNativeTarget "Nimesha" */;
+			buildPhases = (
+				ED0622D11CD3FC6D61AE27A3 /* [CP] Check Pods Manifest.lock */,
+				093400D3275CBA330006DD03 /* Sources */,
+				093400D4275CBA330006DD03 /* Frameworks */,
+				093400D5275CBA330006DD03 /* Resources */,
+				2C1613F11565BF17D5F11D79 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nimesha;
+			productName = Nimesha;
+			productReference = 093400D7275CBA330006DD03 /* Nimesha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093400EC275CBA440006DD03 /* NimeshaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09340104275CBA450006DD03 /* Build configuration list for PBXNativeTarget "NimeshaTests" */;
+			buildPhases = (
+				8E2C8A5B237F00875AD7156C /* [CP] Check Pods Manifest.lock */,
+				093400E9275CBA440006DD03 /* Sources */,
+				093400EA275CBA440006DD03 /* Frameworks */,
+				093400EB275CBA440006DD03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093400EF275CBA440006DD03 /* PBXTargetDependency */,
+			);
+			name = NimeshaTests;
+			productName = NimeshaTests;
+			productReference = 093400ED275CBA440006DD03 /* NimeshaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		093400F7275CBA450006DD03 /* NimeshaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09340107275CBA450006DD03 /* Build configuration list for PBXNativeTarget "NimeshaUITests" */;
+			buildPhases = (
+				F8FF6B3C7680D5C92384671B /* [CP] Check Pods Manifest.lock */,
+				093400F4275CBA450006DD03 /* Sources */,
+				093400F5275CBA450006DD03 /* Frameworks */,
+				093400F6275CBA450006DD03 /* Resources */,
+				9E5CF6DB3303610010E3A2D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093400FA275CBA450006DD03 /* PBXTargetDependency */,
+			);
+			name = NimeshaUITests;
+			productName = NimeshaUITests;
+			productReference = 093400F8275CBA450006DD03 /* NimeshaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093400CF275CBA330006DD03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					093400D6275CBA330006DD03 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					093400EC275CBA440006DD03 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 093400D6275CBA330006DD03;
+					};
+					093400F7275CBA450006DD03 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 093400D6275CBA330006DD03;
+					};
+				};
+			};
+			buildConfigurationList = 093400D2275CBA330006DD03 /* Build configuration list for PBXProject "Nimesha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093400CE275CBA330006DD03;
+			productRefGroup = 093400D8275CBA330006DD03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093400D6275CBA330006DD03 /* Nimesha */,
+				093400EC275CBA440006DD03 /* NimeshaTests */,
+				093400F7275CBA450006DD03 /* NimeshaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093400D5275CBA330006DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093400E7275CBA440006DD03 /* LaunchScreen.storyboard in Resources */,
+				0934012A275CC0D00006DD03 /* GoogleService-Info.plist in Resources */,
+				093400E4275CBA430006DD03 /* Preview Assets.xcassets in Resources */,
+				093400E1275CBA430006DD03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400EB275CBA440006DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400F6275CBA450006DD03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C1613F11565BF17D5F11D79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nimesha/Pods-Nimesha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nimesha/Pods-Nimesha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nimesha/Pods-Nimesha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2C8A5B237F00875AD7156C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimeshaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5CF6DB3303610010E3A2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nimesha-NimeshaUITests/Pods-Nimesha-NimeshaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nimesha-NimeshaUITests/Pods-Nimesha-NimeshaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nimesha-NimeshaUITests/Pods-Nimesha-NimeshaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0622D11CD3FC6D61AE27A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nimesha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8FF6B3C7680D5C92384671B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nimesha-NimeshaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093400D3275CBA330006DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093400DB275CBA330006DD03 /* AppDelegate.swift in Sources */,
+				093400DD275CBA340006DD03 /* SceneDelegate.swift in Sources */,
+				093400DF275CBA340006DD03 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400E9275CBA440006DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093400F2275CBA440006DD03 /* NimeshaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093400F4275CBA450006DD03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093400FD275CBA450006DD03 /* NimeshaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093400EF275CBA440006DD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093400D6275CBA330006DD03 /* Nimesha */;
+			targetProxy = 093400EE275CBA440006DD03 /* PBXContainerItemProxy */;
+		};
+		093400FA275CBA450006DD03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093400D6275CBA330006DD03 /* Nimesha */;
+			targetProxy = 093400F9275CBA450006DD03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093400E5275CBA440006DD03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093400E6275CBA440006DD03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093400FF275CBA450006DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09340100275CBA450006DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09340102275CBA450006DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimesha/Preview Content\"";
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nimesha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.Nimesha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09340103275CBA450006DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DCDBDA31C85A93F4504D799 /* Pods-Nimesha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Nimesha/Preview Content\"";
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Nimesha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.Nimesha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09340105275CBA450006DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7188ED391E427204BDCD52CA /* Pods-NimeshaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = NimeshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.NimeshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimesha.app/Nimesha";
+			};
+			name = Debug;
+		};
+		09340106275CBA450006DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343BED75DBC5293F145C3B48 /* Pods-NimeshaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = NimeshaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.NimeshaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimesha.app/Nimesha";
+			};
+			name = Release;
+		};
+		09340108275CBA450006DD03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B41AC16630877DD2495F0E92 /* Pods-Nimesha-NimeshaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = NimeshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.NimeshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nimesha;
+			};
+			name = Debug;
+		};
+		09340109275CBA450006DD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6713043CE5EE82C64928FD21 /* Pods-Nimesha-NimeshaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2THM4JP49;
+				INFOPLIST_FILE = NimeshaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lk.nibm.NimeshaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nimesha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093400D2275CBA330006DD03 /* Build configuration list for PBXProject "Nimesha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093400FF275CBA450006DD03 /* Debug */,
+				09340100275CBA450006DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09340101275CBA450006DD03 /* Build configuration list for PBXNativeTarget "Nimesha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09340102275CBA450006DD03 /* Debug */,
+				09340103275CBA450006DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09340104275CBA450006DD03 /* Build configuration list for PBXNativeTarget "NimeshaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09340105275CBA450006DD03 /* Debug */,
+				09340106275CBA450006DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09340107275CBA450006DD03 /* Build configuration list for PBXNativeTarget "NimeshaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09340108275CBA450006DD03 /* Debug */,
+				09340109275CBA450006DD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093400CF275CBA330006DD03 /* Project object */;
+}
