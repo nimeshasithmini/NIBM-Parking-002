@@ -2,8 +2,6 @@
 //  NimeshaUITests.swift
 //  NimeshaUITests
 //
-//  Created by Mobios on 12/5/21.
-//
 
 import XCTest
 

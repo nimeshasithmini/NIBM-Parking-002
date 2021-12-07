@@ -2,8 +2,6 @@
 //  NimeshaTests.swift
 //  NimeshaTests
 //
-//  Created by Mobios on 12/5/21.
-//
 
 import XCTest
 @testable import Nimesha

@@ -17,6 +17,14 @@
 		093400F2275CBA440006DD03 /* NimeshaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400F1275CBA440006DD03 /* NimeshaTests.swift */; };
 		093400FD275CBA450006DD03 /* NimeshaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093400FC275CBA450006DD03 /* NimeshaUITests.swift */; };
 		0934012A275CC0D00006DD03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09340129275CC0D00006DD03 /* GoogleService-Info.plist */; };
+		0934012F275CDD410006DD03 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934012E275CDD410006DD03 /* UserController.swift */; };
+		09340143275CE48C0006DD03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340142275CE48C0006DD03 /* HomeView.swift */; };
+		09340150275CE4C60006DD03 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934014F275CE4C60006DD03 /* SignInView.swift */; };
+		09340158275CEA530006DD03 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340157275CEA530006DD03 /* AppUtils.swift */; };
+		0934015D275CF8480006DD03 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934015C275CF8480006DD03 /* BookingView.swift */; };
+		09340162275CF8AB0006DD03 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340161275CF8AB0006DD03 /* RegisterView.swift */; };
+		09340167275CF8C00006DD03 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340166275CF8C00006DD03 /* PasswordView.swift */; };
+		09D30013275D338B00395A0A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D30012275D338B00395A0A /* SettingView.swift */; };
 		1D43D46CB66FACD14D03332D /* Pods_Nimesha_NimeshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */; };
 		58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B88D1C516B78472961487 /* Pods_Nimesha.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +62,14 @@
 		093400FC275CBA450006DD03 /* NimeshaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimeshaUITests.swift; sourceTree = "<group>"; };
 		093400FE275CBA450006DD03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09340129275CC0D00006DD03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0934012E275CDD410006DD03 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		09340142275CE48C0006DD03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0934014F275CE4C60006DD03 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		09340157275CEA530006DD03 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		0934015C275CF8480006DD03 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		09340161275CF8AB0006DD03 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		09340166275CF8C00006DD03 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		09D30012275D338B00395A0A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha.debug.xcconfig"; path = "Target Support Files/Pods-Nimesha/Pods-Nimesha.debug.xcconfig"; sourceTree = "<group>"; };
 		1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimesha_NimeshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		343BED75DBC5293F145C3B48 /* Pods-NimeshaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimeshaTests.release.xcconfig"; path = "Target Support Files/Pods-NimeshaTests/Pods-NimeshaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +142,14 @@
 				093400E5275CBA440006DD03 /* LaunchScreen.storyboard */,
 				093400E8275CBA440006DD03 /* Info.plist */,
 				093400E2275CBA430006DD03 /* Preview Content */,
+				0934012E275CDD410006DD03 /* UserController.swift */,
+				09340142275CE48C0006DD03 /* HomeView.swift */,
+				0934014F275CE4C60006DD03 /* SignInView.swift */,
+				09340157275CEA530006DD03 /* AppUtils.swift */,
+				0934015C275CF8480006DD03 /* BookingView.swift */,
+				09340161275CF8AB0006DD03 /* RegisterView.swift */,
+				09340166275CF8C00006DD03 /* PasswordView.swift */,
+				09D30012275D338B00395A0A /* SettingView.swift */,
 			);
 			path = Nimesha;
 			sourceTree = "<group>";
@@ -418,9 +442,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09340162275CF8AB0006DD03 /* RegisterView.swift in Sources */,
+				0934015D275CF8480006DD03 /* BookingView.swift in Sources */,
+				09340150275CE4C60006DD03 /* SignInView.swift in Sources */,
 				093400DB275CBA330006DD03 /* AppDelegate.swift in Sources */,
 				093400DD275CBA340006DD03 /* SceneDelegate.swift in Sources */,
+				09340167275CF8C00006DD03 /* PasswordView.swift in Sources */,
+				0934012F275CDD410006DD03 /* UserController.swift in Sources */,
+				09340143275CE48C0006DD03 /* HomeView.swift in Sources */,
+				09340158275CEA530006DD03 /* AppUtils.swift in Sources */,
 				093400DF275CBA340006DD03 /* ContentView.swift in Sources */,
+				09D30013275D338B00395A0A /* SettingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -573,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -591,7 +623,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Nimesha/Preview Content\"";
-				DEVELOPMENT_TEAM = N2THM4JP49;
+				DEVELOPMENT_TEAM = AUNNQSNGN4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nimesha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Nimesha/Preview Content\"";
-				DEVELOPMENT_TEAM = N2THM4JP49;
+				DEVELOPMENT_TEAM = AUNNQSNGN4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Nimesha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
