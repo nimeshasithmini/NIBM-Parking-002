@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "National_Institute_of_Business_Management_Logo.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "National_Institute_of_Business_Management_Logo-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "National_Institute_of_Business_Management_Logo-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
