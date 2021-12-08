@@ -18,6 +18,7 @@ class UserController{
             completionBlock(["register_id" : 0 as Int64]);
             return
         }
+        print(uid);
         
         db.child("users").child(uid).observeSingleEvent(of: .value, with: { (data) in
             let user = data.value as! [String: Any]

@@ -9,7 +9,7 @@ struct SignInView: View {
     @State var email = "";
     @State var password = "" ;
     
-    @ObservedObject var setting : AppUtils
+    @ObservedObject var utils : AppUtils
     @State private var alert: MyAlert?;
     
     var userController = UserController();
@@ -20,7 +20,7 @@ struct SignInView: View {
                 Text("Email")
                     .font(.title)
                     .multilineTextAlignment(.center)
-                TextField("",text: $email).keyboardType(.emailAddress).accessibility(identifier: "email")
+                TextField("",text: $email).keyboardType(.emailAddress).accessibility(identifier: "mail")
                     .frame(width: 250.0, height: 40.0).background(Color(.secondarySystemBackground))
                 Text("Password")
                     .font(.title)
@@ -33,8 +33,8 @@ struct SignInView: View {
 
                         if(success){
                             print(success)
-                            setting.authorized = success
-                            setting.select = 1
+                            utils.authorized = success
+                            
                         }else{
                             alert = MyAlert(message: "Invalid Email or Password");
                         }
@@ -42,14 +42,14 @@ struct SignInView: View {
                     
                 }, label:{
                     Text("Sign In").font(.title).fontWeight(.semibold).foregroundColor(.white).padding().frame(width: 200.0, height: 50.0).background(Color(hue: 0.541, saturation: 0.996, brightness: 0.362)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
-                }).alert(item: $alert) { con in
+                }).accessibility(identifier: "login_btn").alert(item: $alert) { con in
                     Alert(title: Text(con.message))
                 }.padding(.top, 20.0)
                 
                 Button(action:{
                     
-                    setting.view = "reg"
-                    setting.select = 5;
+                    utils.view = "reg"
+                    utils.select = 5;
                 }, label:{
                     Text("Sign Up").font(.title).fontWeight(.medium).foregroundColor(.white).padding().frame(width: 150.0, height: 40.0).background(Color(hue: 0.272, saturation: 0.956, brightness: 0.24)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
                 })
@@ -59,8 +59,8 @@ struct SignInView: View {
                 Spacer()
                 
                 Button(action:{
-                    setting.view = "password"
-                    setting.select = 6;
+                    utils.view = "password"
+                    utils.select = 6;
                 }, label:{
                     Text("Forget Password").fontWeight(.semibold).padding()
                 })
@@ -74,13 +74,24 @@ struct SignInView: View {
             }
             .padding(50.0)
             .onAppear {
-                
-               // self.getUserData()
-                
-            
+                self.check_user();
             }
         ).edgesIgnoringSafeArea(.all)
     }
+    
+    func check_user(){
+        let controller = UserController()
+        controller.get_user() {(success) -> Void in
+           let regId = success["register_id"] as! Int64;
+            if(regId==0){
+                utils.authorized = false
+            }else{
+                utils.authorized = true
+            }
+            
+        }
+    }
+    
 }
 
 //struct SignInView_Previews: PreviewProvider {

@@ -22,6 +22,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+    <key>NSCameraUsageDescription</key>
+    <string>Need to Scan Qr</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Need to Get Locatiopn</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Need to Get Locatiopn</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Need to Get Location</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -7,7 +7,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-    //@State var selection = UserDefaults.standard.integer(forKey: "slot");
     @ObservedObject var utils = AppUtils();
     
     var body: some View {
@@ -18,10 +17,8 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }.tag(1)
-//
             if(utils.authorized){
-                BookingView()
-                        .tabItem {
+                BookingView(utils: utils).tabItem {
                             Image(systemName: "book")
                             Text("Booking")
                     }.tag(2)
@@ -31,21 +28,18 @@ struct ContentView: View {
                     }.tag(3)
             }else{
                 if(utils.view=="login"){
-                    SignInView(setting: utils)
-                            .tabItem {
+                    SignInView(utils: utils).tabItem {
                                 Image(systemName: "person")
                                 Text("Login")
                         }.tag(4)
                 }else if(utils.view=="reg"){
-                    RegisterView(utils: utils)
-                            .tabItem {
+                    RegisterView(utils: utils).tabItem {
                                 Image(systemName: "person")
                                 Text("Register")
                             }.tag(5)
 
                 }else if(utils.view=="password"){
-                    PasswordView(utils: utils)
-                            .tabItem {
+                    PasswordView(utils: utils).tabItem {
                                 Image(systemName: "person")
                                 Text("Password Reset")
                             }.tag(6)
@@ -53,6 +47,7 @@ struct ContentView: View {
             }
         }
     }
+    
 }
 
 //struct ContentView_Previews: PreviewProvider {

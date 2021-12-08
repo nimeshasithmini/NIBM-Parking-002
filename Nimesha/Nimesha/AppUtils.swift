@@ -2,8 +2,6 @@
 //  AppUtils.swift
 //  Nimesha
 //
-//  Created by Mobios on 12/5/21.
-//
 
 import Foundation
 class AppUtils: ObservableObject{

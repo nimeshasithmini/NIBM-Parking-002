@@ -12,6 +12,8 @@ struct SettingView: View {
     @State var nic = "";
     @State var reg_number = "";
     
+   // @State var isLoad = false;
+    
     @ObservedObject var utils : AppUtils
     
     var userController = UserController();
@@ -57,7 +59,7 @@ struct SettingView: View {
                     }
                     
                 }.shadow(radius: 10 )
-                .padding([.leading, .bottom, .trailing], 20.0).foregroundColor(.black).background(Color(hue: 0.831, saturation: 0.294, brightness: 0.985)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
+                .padding([.leading, .bottom, .trailing], 20.0).foregroundColor(.black).background(Color(hue: 0.831, saturation: 0.294, brightness: 0.985)).cornerRadius(5.0)
                 
                 Spacer()
                 
@@ -72,7 +74,10 @@ struct SettingView: View {
                 .padding(.bottom, 100.0)
 
             }.padding(.top, 20.0).onAppear(){
+                
                 self.check_user()
+                   // isLoad = true;
+                
             }
             
         ).edgesIgnoringSafeArea(.all)
@@ -85,6 +90,7 @@ struct SettingView: View {
             if(regId==0){
 
             }else{
+                utils.authorized = true
                 self.reg_number = String(regId);
                 self.name = success["name"] as! String;
                 self.vehicle_no = success["vehicle_no"] as! String

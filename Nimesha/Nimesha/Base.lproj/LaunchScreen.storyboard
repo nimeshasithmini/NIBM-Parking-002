@@ -24,8 +24,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="gzB-a1-kB2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1Tn-9m-3D1"/>
-                            <constraint firstItem="gzB-a1-kB2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UVW-2b-yEQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gzB-a1-kB2" secondAttribute="trailing" constant="57" id="JD3-8p-Ygg"/>
+                            <constraint firstItem="gzB-a1-kB2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Oo5-g8-PfG"/>
+                            <constraint firstItem="gzB-a1-kB2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="e4Q-xa-woP"/>
+                            <constraint firstItem="gzB-a1-kB2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="318" id="tVd-cq-MHM"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,7 +37,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="300" height="172"/>
+        <image name="logo" width="150" height="86"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

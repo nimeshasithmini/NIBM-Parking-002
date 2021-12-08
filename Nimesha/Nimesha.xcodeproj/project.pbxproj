@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,9 @@
 		0934015D275CF8480006DD03 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0934015C275CF8480006DD03 /* BookingView.swift */; };
 		09340162275CF8AB0006DD03 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340161275CF8AB0006DD03 /* RegisterView.swift */; };
 		09340167275CF8C00006DD03 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09340166275CF8C00006DD03 /* PasswordView.swift */; };
+		09401823275F3A4E008107CF /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09401822275F3A4E008107CF /* BookingController.swift */; };
+		0940182E275FD19F008107CF /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0940182D275FD19F008107CF /* CodeScanner */; };
+		09401833275FD6C8008107CF /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09401832275FD6C8008107CF /* LocationService.swift */; };
 		09D30013275D338B00395A0A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D30012275D338B00395A0A /* SettingView.swift */; };
 		1D43D46CB66FACD14D03332D /* Pods_Nimesha_NimeshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */; };
 		58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B88D1C516B78472961487 /* Pods_Nimesha.framework */; };
@@ -69,6 +72,8 @@
 		0934015C275CF8480006DD03 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		09340161275CF8AB0006DD03 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		09340166275CF8C00006DD03 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		09401822275F3A4E008107CF /* BookingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
+		09401832275FD6C8008107CF /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		09D30012275D338B00395A0A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha.debug.xcconfig"; path = "Target Support Files/Pods-Nimesha/Pods-Nimesha.debug.xcconfig"; sourceTree = "<group>"; };
 		1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimesha_NimeshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940182E275FD19F008107CF /* CodeScanner in Frameworks */,
 				58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +156,8 @@
 				09340161275CF8AB0006DD03 /* RegisterView.swift */,
 				09340166275CF8C00006DD03 /* PasswordView.swift */,
 				09D30012275D338B00395A0A /* SettingView.swift */,
+				09401822275F3A4E008107CF /* BookingController.swift */,
+				09401832275FD6C8008107CF /* LocationService.swift */,
 			);
 			path = Nimesha;
 			sourceTree = "<group>";
@@ -221,6 +229,9 @@
 			dependencies = (
 			);
 			name = Nimesha;
+			packageProductDependencies = (
+				0940182D275FD19F008107CF /* CodeScanner */,
+			);
 			productName = Nimesha;
 			productReference = 093400D7275CBA330006DD03 /* Nimesha.app */;
 			productType = "com.apple.product-type.application";
@@ -295,6 +306,9 @@
 				Base,
 			);
 			mainGroup = 093400CE275CBA330006DD03;
+			packageReferences = (
+				0940182C275FD19F008107CF /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 093400D8275CBA330006DD03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -442,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09401833275FD6C8008107CF /* LocationService.swift in Sources */,
 				09340162275CF8AB0006DD03 /* RegisterView.swift in Sources */,
 				0934015D275CF8480006DD03 /* BookingView.swift in Sources */,
 				09340150275CE4C60006DD03 /* SignInView.swift in Sources */,
@@ -449,6 +464,7 @@
 				093400DD275CBA340006DD03 /* SceneDelegate.swift in Sources */,
 				09340167275CF8C00006DD03 /* PasswordView.swift in Sources */,
 				0934012F275CDD410006DD03 /* UserController.swift in Sources */,
+				09401823275F3A4E008107CF /* BookingController.swift in Sources */,
 				09340143275CE48C0006DD03 /* HomeView.swift in Sources */,
 				09340158275CEA530006DD03 /* AppUtils.swift in Sources */,
 				093400DF275CBA340006DD03 /* ContentView.swift in Sources */,
@@ -787,6 +803,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0940182C275FD19F008107CF /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0940182D275FD19F008107CF /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0940182C275FD19F008107CF /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 093400CF275CBA330006DD03 /* Project object */;
 }
