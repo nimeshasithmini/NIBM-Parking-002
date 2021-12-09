@@ -140,6 +140,9 @@
 		093400D9275CBA330006DD03 /* Nimesha */ = {
 			isa = PBXGroup;
 			children = (
+				097430432761B85E004D7A14 /* Common */,
+				097430422761B82C004D7A14 /* Controller */,
+				097430412761B824004D7A14 /* Views */,
 				09340129275CC0D00006DD03 /* GoogleService-Info.plist */,
 				093400DA275CBA330006DD03 /* AppDelegate.swift */,
 				093400DC275CBA340006DD03 /* SceneDelegate.swift */,
@@ -148,16 +151,6 @@
 				093400E5275CBA440006DD03 /* LaunchScreen.storyboard */,
 				093400E8275CBA440006DD03 /* Info.plist */,
 				093400E2275CBA430006DD03 /* Preview Content */,
-				0934012E275CDD410006DD03 /* UserController.swift */,
-				09340142275CE48C0006DD03 /* HomeView.swift */,
-				0934014F275CE4C60006DD03 /* SignInView.swift */,
-				09340157275CEA530006DD03 /* AppUtils.swift */,
-				0934015C275CF8480006DD03 /* BookingView.swift */,
-				09340161275CF8AB0006DD03 /* RegisterView.swift */,
-				09340166275CF8C00006DD03 /* PasswordView.swift */,
-				09D30012275D338B00395A0A /* SettingView.swift */,
-				09401822275F3A4E008107CF /* BookingController.swift */,
-				09401832275FD6C8008107CF /* LocationService.swift */,
 			);
 			path = Nimesha;
 			sourceTree = "<group>";
@@ -186,6 +179,37 @@
 				093400FE275CBA450006DD03 /* Info.plist */,
 			);
 			path = NimeshaUITests;
+			sourceTree = "<group>";
+		};
+		097430412761B824004D7A14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0934015C275CF8480006DD03 /* BookingView.swift */,
+				09340161275CF8AB0006DD03 /* RegisterView.swift */,
+				09340166275CF8C00006DD03 /* PasswordView.swift */,
+				09D30012275D338B00395A0A /* SettingView.swift */,
+				09340142275CE48C0006DD03 /* HomeView.swift */,
+				0934014F275CE4C60006DD03 /* SignInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		097430422761B82C004D7A14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09401822275F3A4E008107CF /* BookingController.swift */,
+				0934012E275CDD410006DD03 /* UserController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		097430432761B85E004D7A14 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				09401832275FD6C8008107CF /* LocationService.swift */,
+				09340157275CEA530006DD03 /* AppUtils.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		CCB1FC0620919FCDA54EB1EA /* Frameworks */ = {
