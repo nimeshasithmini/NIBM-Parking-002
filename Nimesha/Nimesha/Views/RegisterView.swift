@@ -17,6 +17,8 @@ struct RegisterView: View {
     
     var userController = UserController();
     
+    var validationController = ValidationController();
+    
     var body: some View {
         Color("AppBackground").overlay(
             GeometryReader{ geometry in
@@ -49,11 +51,19 @@ struct RegisterView: View {
                               Button(action:{
                                                                 
                                 if(email.isEmpty){
+                                    alert = MyAlert(message: "Empty Email");
+                                    return;
+                                }
+                                if(!validationController.isValidEmail(email)){
                                     alert = MyAlert(message: "Invalid Email");
                                     return;
                                 }
                                 if(password.isEmpty){
                                     alert = MyAlert(message: "Please Enter Password");
+                                    return;
+                                }
+                                if(!validationController.isValidPassword(password)){
+                                    alert = MyAlert(message: "Password at least 8 characters");
                                     return;
                                 }
                                 if(name.isEmpty){

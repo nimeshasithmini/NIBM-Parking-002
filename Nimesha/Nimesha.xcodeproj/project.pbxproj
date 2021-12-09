@@ -27,6 +27,7 @@
 		09401823275F3A4E008107CF /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09401822275F3A4E008107CF /* BookingController.swift */; };
 		0940182E275FD19F008107CF /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0940182D275FD19F008107CF /* CodeScanner */; };
 		09401833275FD6C8008107CF /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09401832275FD6C8008107CF /* LocationService.swift */; };
+		097430FA2762605E004D7A14 /* ValidationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097430F92762605D004D7A14 /* ValidationController.swift */; };
 		09D30013275D338B00395A0A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D30012275D338B00395A0A /* SettingView.swift */; };
 		1D43D46CB66FACD14D03332D /* Pods_Nimesha_NimeshaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */; };
 		58A999C7DF06B1CAA4476024 /* Pods_Nimesha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60B88D1C516B78472961487 /* Pods_Nimesha.framework */; };
@@ -74,6 +75,7 @@
 		09340166275CF8C00006DD03 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		09401822275F3A4E008107CF /* BookingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
 		09401832275FD6C8008107CF /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		097430F92762605D004D7A14 /* ValidationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationController.swift; sourceTree = "<group>"; };
 		09D30012275D338B00395A0A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		1552A98C2C78D3F06875EDFC /* Pods-Nimesha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nimesha.debug.xcconfig"; path = "Target Support Files/Pods-Nimesha/Pods-Nimesha.debug.xcconfig"; sourceTree = "<group>"; };
 		1836519DB90AD9D74A5DB244 /* Pods_Nimesha_NimeshaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nimesha_NimeshaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,6 +201,7 @@
 			children = (
 				09401822275F3A4E008107CF /* BookingController.swift */,
 				0934012E275CDD410006DD03 /* UserController.swift */,
+				097430F92762605D004D7A14 /* ValidationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -486,6 +489,7 @@
 				09340150275CE4C60006DD03 /* SignInView.swift in Sources */,
 				093400DB275CBA330006DD03 /* AppDelegate.swift in Sources */,
 				093400DD275CBA340006DD03 /* SceneDelegate.swift in Sources */,
+				097430FA2762605E004D7A14 /* ValidationController.swift in Sources */,
 				09340167275CF8C00006DD03 /* PasswordView.swift in Sources */,
 				0934012F275CDD410006DD03 /* UserController.swift in Sources */,
 				09401823275F3A4E008107CF /* BookingController.swift in Sources */,
