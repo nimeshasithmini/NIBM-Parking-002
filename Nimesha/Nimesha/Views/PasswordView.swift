@@ -16,7 +16,9 @@ struct PasswordView: View {
     var body: some View {
         Color("AppBackground").overlay(
             VStack(alignment: .center){
-                
+                Image("Lock")
+                    .resizable()
+                    .scaledToFit()
                 Text("Email")
                     .font(.title)
                 TextField("",text: $email)

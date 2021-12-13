@@ -25,7 +25,6 @@ struct RegisterView: View {
                 
                 ScrollView(.vertical){
                     VStack(alignment: .center){
-                      
                         VStack{
                             Text("Email").font(.title)
                             TextField("",text: $email).keyboardType(.emailAddress)                    .frame(width: 250.0, height: 30.0).background(Color(.secondarySystemBackground))

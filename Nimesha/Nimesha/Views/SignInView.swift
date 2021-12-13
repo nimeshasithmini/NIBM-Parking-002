@@ -17,6 +17,9 @@ struct SignInView: View {
     var body: some View {
         Color("AppBackground").overlay(
             VStack(alignment: .center){
+                Image("girl")
+                    .resizable()
+                    .scaledToFit()
                 Text("Email")
                     .font(.title)
                     .multilineTextAlignment(.center)
@@ -41,7 +44,7 @@ struct SignInView: View {
                     }
                     
                 }, label:{
-                    Text("Sign In").font(.title).fontWeight(.semibold).foregroundColor(.white).padding().frame(width: 200.0, height: 50.0).background(Color(hue: 0.541, saturation: 0.996, brightness: 0.362)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
+                    Text("Sign In").font(.title).fontWeight(.semibold).foregroundColor(.white).padding().frame(width: 200.0, height: 50.0).background(Color(hue: 0.200, saturation: 0.300, brightness: 0.150)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
                 }).accessibility(identifier: "login_btn").alert(item: $alert) { con in
                     Alert(title: Text(con.message))
                 }.padding(.top, 20.0)
@@ -51,7 +54,7 @@ struct SignInView: View {
                     utils.view = "reg"
                     utils.select = 5;
                 }, label:{
-                    Text("Sign Up").font(.title).fontWeight(.medium).foregroundColor(.white).padding().frame(width: 150.0, height: 40.0).background(Color(hue: 0.272, saturation: 0.956, brightness: 0.24)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
+                    Text("Sign Up").font(.title).fontWeight(.medium).foregroundColor(.white).padding().frame(width: 200.0, height: 50.0).background(Color(hue: 0.272, saturation: 0.956, brightness: 0.24)).cornerRadius(/*@START_MENU_TOKEN@*/8.0/*@END_MENU_TOKEN@*/)
                 })
                 .padding(.top, 30.0)
                 

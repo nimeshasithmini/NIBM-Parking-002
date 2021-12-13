@@ -17,11 +17,11 @@ struct HomeView: View {
     var body: some View {
         Color("AppBackground").overlay(
         VStack{
-            Text("All Slots")
+            Text("SLOTS AVAILABILITY")
                 .fontWeight(.bold).padding(.bottom, 30.0)
             HStack{
                 VStack{
-                    Text("VIP")
+                    Text("VIP SLOT")
                         .fontWeight(.bold).padding(.bottom, 10.0)
                     ForEach(0..<vip.count, id: \.self) { index in
                        
@@ -42,14 +42,14 @@ struct HomeView: View {
                                 Text(time_check(f_time: time)).fontWeight(.light).padding([.leading, .bottom, .trailing], 3.0).font(.system(size: 15))
                             }
                                  
-                        }.frame(width: 120.0,height: 80.0).background(Color.blue).padding(1.0).cornerRadius(5)
+                        }.frame(width: 150.0,height: 80.0).background(Color.yellow).padding(1.0).cornerRadius(35)
                         
                       }
                    
                 }.frame(width:150)
                 
                 VStack{
-                    Text("NORMAL")
+                    Text("NORMAL SLOT")
                         .fontWeight(.bold).padding(.bottom, 10.0)
                     ForEach(0..<normal.count, id: \.self) { index in
                         let status = self.normal[index].childSnapshot(forPath: "status").value as! String;
@@ -68,7 +68,7 @@ struct HomeView: View {
                                     .fontWeight(.light)
                                 Text(time_check(f_time: time)).fontWeight(.light).padding([.leading, .bottom, .trailing], 3.0).font(.system(size: 15))
                             }
-                        }.frame(width: 120.0,height: 80.0).background(Color.purple).padding(1.0).cornerRadius(5)
+                        }.frame(width: 150.0,height: 80.0).background(Color.pink).padding(1.0).cornerRadius(35)
                       }
                     
                 }.frame(width:150)
